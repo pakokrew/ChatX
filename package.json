@@ -104,7 +104,7 @@
     "react-router": "^2.3.0",
     "react-router-redux": "^4.0.0",
     "react-router-scroll": "^0.3.0",
-    "rebass": "^0.3.1",
+    "rebass": "^0.3.3",
     "redbox-react": "^1.0.5",
     "redux": "^3.0.4",
     "redux-logger": "^2.1.1",
