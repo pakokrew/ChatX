@@ -1,7 +1,7 @@
-import React, {PropTypes} from 'react';
-import {View, Text, Block} from '../../app/components';
+import React, { PropTypes } from 'react';
+import { View, Text, Block } from '../../app/components';
 
-const OnlineUsers = ({users}) => {
+const OnlineUsers = ({ users }) => {
 
   return (
     <Block mt={1}>
@@ -20,7 +20,7 @@ const OnlineUsers = ({users}) => {
             </Text>
           </View>
           :
-          <Text small></Text>
+          <Text small>No user in channel</Text>
       }
     </Block>
   );
