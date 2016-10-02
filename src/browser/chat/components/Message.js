@@ -20,11 +20,13 @@ const Message = ({ message }) => {
 
   const formatSentTime = (time) => {
     const date = moment(time);
+    /*
     const difference = moment().diff(date);
     const isToday = moment.duration(difference).days() === 0;
     if (isToday) {
       return date.format('H:mm:ss');
     }
+    */
     return date.fromNow();
   };
 
